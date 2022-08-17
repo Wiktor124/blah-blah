@@ -3,7 +3,7 @@ const valore = document.getElementById('body')
 
 botone.addEventListener('click', (e) => {
   e.preventDefault()
-  valore.innerHTML = `<h1>GAY POR SAPO</h1>`
+  valore.innerHTML = `<h1>GAY POR SAPO 🤣</h1>`
 })
 
 
