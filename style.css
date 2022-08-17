@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+input[type="button"] {
+  background: green;
+  font-size: 1.5625rem;
+  border-radius: 0.75rem;
+  padding: 30px 40px;
+  color: #fff;
+  font-weight: bold;
+}
+h1 {
+  font-size: 100px;
+  color: rgb(225, 0, 255);
+  animation: colores 2.5s infinite linear;
+}
+
+@keyframes colores {
+  0% {
+    color: red;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color:purple;
+  }
+}
